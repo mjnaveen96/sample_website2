@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CANVAS</title>
+</head>
+<body>
+	<fieldset>
+		<center><h1>CANVAS CIRCLE</h1></center>
+		<center>
+			<canvas id="circle" width="200" height="200" style="border:1px solid #000000;">
+			<script type="text/javascript">
+				var c=document.getElementById("circle");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(100,75,50,0,2*Math.PI);
+				ctx.strokeStyle = "black";
+				ctx.stroke();
+				ctx.fillStyle = "blue";
+				ctc.fill();
+			</script>
+			</canvas>
+		</center>
+		<br>
+		<br>
+		<a href="home.html">Back</a>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+</head>
+<body>
+ 	<form>
+   		<fieldset>
+   			<legend>Registration</legend>
+   			<table cellspacing="20">
+   				<tr>
+   					<td>
+   						<div>
+   							<label for="first_name">First Name :</label>
+   							<br>
+   							<input type="text" id="first_name" name="first_name" required="true" size="20" placeholder="John">
+   						</div>
+   					</td>
+   					<td>
+   						<div>
+   							<label for="last_name">Last Name :</label>
+   							<br>
+   							<input type="text" id="last_name" name="last_name" required="true" size="20" placeholder="Benadict">
+    					</div>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<div>
+         					<label for="password">Password :</label>
+         					<br>
+         					<input type="password" id="password" name="password" required="true" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+    					</div>
+    				</td>
+    				<td>
+    					<div>
+   							<label for="email">Email :</label>
+   							<br>
+   							<input type="email" id="email "name="email" required="true" placeholder="john.13@fpoil.com">
+   						</div>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td>
+   						<div>
+   							<label for="gender">Male</label>
+   							<input type="radio" name="gender" value="male" checked="true">
+   							<label for="gender">Female</label>
+   							<input type="radio" name="gender" value="female">
+   							<label for="gender">Others</label>
+   							<input type="radio" name="gender" value="other">
+   						</div>
+   					</td>
+
+   					<td>
+    					<div>
+    						<label for="skills">Skills</label>
+    						<input type="checkbox" name="C++" value="C++">C++
+    						<input type="checkbox" name="C" value="C">C
+    						<input type="checkbox" name="java" value="java">Java
+    						<input type="checkbox" name="php" value="php">php
+    					</div>
+    				</td>
+   				</tr>
+   				<tr>	
+   	 				<td>
+      					<div>
+         					<label for="phone_number">Phone :</label>
+         					<br>
+         					<input type="phonenumber" id="phone_number" name="phone_number" maxlength="15" required="true">
+    					</div>
+    				</td>
+    				<td>
+    					<div>
+    						<label for="dob">DOB :</label>
+    						<br>
+    						<input type="date"  id="dob" name="dob" required="true" value="21-05-1997" min="1980-01-01" max="2018-08-08">
+    						</div>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<div>
+    						<label for="address">Address :</label>
+    						<br>
+    						<textarea name="address" rows="7" cols="23">
+    							
+    						</textarea>
+    					</div>
+    				</td>
+    				<td>
+    					<div>
+    						<label for="country">Country :</label>
+    						<br>
+    						<select name="country">
+  								<option value="indian">India</option>
+  								<option value="saab">America</option>
+  								<option value="Nepal">Nepal</option>
+  								<option value="other">Others</option>
+							</select>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<div>
+       						<input type="submit" name="submit" value="Submit">
+       						<input type="reset" name="reset" value="Reset">
+    					</div>
+    				</td>
+    			</tr>
+    		</table>
+   		</fieldset>
+   </form>
+   <a href="home.html">Back</a>
+</body>
+</html>
