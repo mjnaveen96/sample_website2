@@ -1,1 +1,27 @@
 /* sample_website*/
+body {
+	background: url("../media/background.jpg");
+}
+/*header {
+	display: grid;
+	grid-area: 
+}*/
+.header {
+  display: grid;
+  grid-auto-rows: 40px;
+  grid-area: 500px
+  /*grid-template-columns: 20px;
+  grid-template-rows: 100px 100px;
+  grid-template-areas: 
+    "a a "
+    "a a "
+    "a a";*/
+    /*background-color: black;
+    background-size: 30px 50px;*/
+}
+.item {
+  grid-area: a;
+}
+/*.item2 {
+  grid-area: b;
+}*/
