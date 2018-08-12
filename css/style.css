@@ -6,10 +6,36 @@ body {
 	display: grid;
 	grid-area: 
 }*/
+.register {
+  grid-area: register;
+}
+
+.video {
+  grid-area: video;
+}
+
+.audio {
+  grid-area: audio;
+}
+
+.canvas {
+  grid-area: canvas;
+}
+
+.svg {
+  grid-area: svg;
+}
+
 .header {
   display: grid;
   grid-auto-rows: 40px;
-  grid-area: 500px
+  grid-template-areas: 
+  'register register'
+  'video video'
+  'audio audio'
+  'canvas canvas'
+  'svg svg';
+  background-color: black;
   /*grid-template-columns: 20px;
   grid-template-rows: 100px 100px;
   grid-template-areas: 
