@@ -1,53 +1,15 @@
 /* sample_website*/
 body {
-	background: url("../media/background.jpg");
-}
-/*header {
-	display: grid;
-	grid-area: 
-}*/
-.register {
-  grid-area: register;
+	background-color: black;
 }
 
-.video {
-  grid-area: video;
-}
-
-.audio {
-  grid-area: audio;
-}
-
-.canvas {
-  grid-area: canvas;
-}
-
-.svg {
-  grid-area: svg;
-}
 
 .header {
-  display: grid;
-  grid-auto-rows: 40px;
-  grid-template-areas: 
-  'register register'
-  'video video'
-  'audio audio'
-  'canvas canvas'
-  'svg svg';
-  background-color: black;
-  /*grid-template-columns: 20px;
-  grid-template-rows: 100px 100px;
-  grid-template-areas: 
-    "a a "
-    "a a "
-    "a a";*/
-    /*background-color: black;
-    background-size: 30px 50px;*/
+  display: flex;
+  background-color: rgba(255,255,255,.5);
+  justify-content: space-between;
+ } 
+
+.header > div {
+  flex:1;
 }
-.item {
-  grid-area: a;
-}
-/*.item2 {
-  grid-area: b;
-}*/
