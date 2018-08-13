@@ -13,14 +13,9 @@ body {
 	outline: solid yellow 8px;
 	outline-offset: 4px;
 	color: green;
-	text-align: center;
-	text-decoration: none;
 	text-indent: 8px;
 	text-shadow: 3px 2px red;
-	text-transform:capitalize;
 	font-family: sans-serif;
-	font-style: oblique;
-	font-variant: small-caps;
 	padding: 20px;
 	width: 500px;
 	height: 30px;
@@ -47,4 +42,10 @@ a {
 	border: solid 4px green;
 	border-radius: 6px;
 	background-color: grey;
+}
+#registerimage {
+	position:fixed;
+	left: 0px;
+    top: 0px;
+    z-index: 1;
 }
