@@ -1,6 +1,6 @@
 /* sample_website*/
 body {
-	background-image: url("../media/background.jpg");
+	background-color: white;
 	background-repeat: repeat;
 	background-position: fixed;
 	background-attachment: local;
@@ -14,7 +14,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	width: 200px;
-	background-color: rgba(0,0,0,0.5);
+	background-color: #6B6D76;
 	/* display: inline-block;
 	outline: solid yellow 8px;
 	outline-offset: 4px;
@@ -40,7 +40,7 @@ body {
 	 display: block;
 	 padding: 40px;
 	 text-decoration: none;
-	 color: red;
+	 color: #F7F9F9;
 
  }
 
@@ -54,9 +54,9 @@ body {
 	 background-color: white;
  } */
 
- li a.active {
+ /* li a.active {
     background-color: #4CAF50;
-    color: white;
+    color: white; */
 /* a {
 .header > div {
   flex:1;
