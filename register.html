@@ -3,11 +3,23 @@
 <html>
 <head>
 	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
- 	<form>
-   		<fieldset>
-   			<legend>Registration</legend>
+	<nav class="navbar">
+		<ul  id="register">
+			<li class="dashboard"><a href="index.html">DASHBOARD</a></li>
+			<li class="register"><a href="register.html">REGISTER</a></li>
+			<li class="video"><a href="video.html">VIDEO</a></li>
+			<li class="audio"><a href="audio.html"> AUDIO</a></li>
+			<li class="canvas"><a href="canvas.html">CANVAS</a></li>
+			<li class="svg"><a href="svg.html">SVG</a></li>
+		</ul>
+	</nav>
+	<div class="contents">
+		<fieldset class="registerform">
+			<legend>Registration</legend>
+			<form>
    			<table cellspacing="20">
    				<tr>
    					<td>
@@ -63,7 +75,7 @@
     					</div>
     				</td>
    				</tr>
-   				<tr>	
+   				<tr>
    	 				<td>
       					<div>
          					<label for="phone_number">Phone :</label>
@@ -85,7 +97,7 @@
     						<label for="address">Address :</label>
     						<br>
     						<textarea name="address" rows="7" cols="23">
-    							
+
     						</textarea>
     					</div>
     				</td>
@@ -110,8 +122,10 @@
     				</td>
     			</tr>
     		</table>
-   		</fieldset>
+
    </form>
-   <a href="home.html">Back</a>
+	 	</fieldset>
+	</div>
+   <a href="index.html">Back</a>
 </body>
 </html>
