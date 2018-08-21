@@ -9,8 +9,8 @@ body {
 }
 
 
-.navbar {
-	list-style-type: none;
+nav {
+	list-style: none;
 	margin: 0px;
 	padding: 0px;
 	width: 200px;
@@ -50,22 +50,7 @@ body {
 
  }
 
-.head {
-	background-color: #6E675F ;
-	font-size: 30px;
-	 color: #F7F9F9;
-	 text-align: center;
-}
 
-#register {
-	display: inline-block;
-
-}
-
-.registerform {
- width: 40%
-	display: inline-block;
-}
 
 
  /* .dashboard {
@@ -81,10 +66,9 @@ body {
 	border: solid 4px green;
 	border-radius: 6px;
 	background-color: grey;
-}
-#registerimage {
-	position:fixed;
-	left: 0px;
-    top: 0px;
-    z-index: 1;
-} */
+}*/
+.registerimage {
+	position: fixed;
+	left: 400px;
+	top: 200px;
+} 
