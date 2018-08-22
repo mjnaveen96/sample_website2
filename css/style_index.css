@@ -1,15 +1,8 @@
 /* sample_website*/
-body {
-	background-color: #E3B23C;
-	background-repeat: repeat;
-	background-position: fixed;
-	background-attachment: local;
-	margin: 50px;
-
-}
 
 
-.navbar {
+
+.navbar .navbarcont {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;

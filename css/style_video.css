@@ -1,0 +1,31 @@
+
+
+
+
+.navbar_v  .navbar_vc {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	background-color: #423E37;
+
+ }
+
+ li a {
+	 display: block;
+	 padding: 40px;
+	 text-decoration: none;
+	 color: #F7F9F9;
+
+ }
+
+ li a:hover {
+	 background-color: #EDEBD7;
+	 color: black;
+}
+.videocont {
+  height: 550px;
+  width: 1000px;
+  float: right;
+
+}
