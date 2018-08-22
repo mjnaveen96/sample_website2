@@ -25,12 +25,11 @@
 
  }
 
-.head {
-	background-color: #6E675F ;
-	font-size: 30px;
-	 color: #F7F9F9;
-	 text-align: center;
-}
+ .act a{
+	background-color: #EDEBD7;
+	color: black;
+
+ }
 
 #register {
 	display: inline-block;

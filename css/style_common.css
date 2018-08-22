@@ -8,3 +8,10 @@ body {
 	margin: 50px;
 
 }
+
+.head {
+	background-color: #6E675F ;
+	font-size: 30px;
+	 color: #F7F9F9;
+	 text-align: center;
+}
